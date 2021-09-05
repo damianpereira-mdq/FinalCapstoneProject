@@ -1,0 +1,12 @@
+pages\ContactPage.class
+pages\ProductsPage.class
+tests\HomePageTests.class
+pages\LoginPage.class
+tests\LoginPageTests.class
+tests\ContactPageTests.class
+pages\HomePage.class
+pages\AboutPage.class
+pages\SignUpPage.class
+tests\ProductsPageTests.class
+tests\AboutPageTests.class
+tests\TestBase.class

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="17" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-03T01:41:49 ART" name="Suite" finished-at="2021-09-03T01:42:13 ART" duration-ms="24410">
+    <groups>
+    </groups>
+    <test started-at="2021-09-03T01:41:49 ART" name="Test" finished-at="2021-09-03T01:42:13 ART" duration-ms="24410">
+      <class name="tests.TestBase">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.TestBase@49b0b76]" started-at="2021-09-03T01:41:46 ART" name="initialize" finished-at="2021-09-03T01:41:49 ART" duration-ms="2338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:tests.TestBase@49b0b76]" started-at="2021-09-03T01:42:13 ART" name="TeardownTest" finished-at="2021-09-03T01:42:14 ART" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- tests.TestBase -->
+      <class name="tests.ContactPageTests">
+        <test-method signature="testAboutPageTitle()[pri:0, instance:tests.ContactPageTests@2e4b8173]" started-at="2021-09-03T01:41:54 ART" name="testAboutPageTitle" finished-at="2021-09-03T01:41:57 ART" duration-ms="3176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAboutPageTitle -->
+      </class> <!-- tests.ContactPageTests -->
+      <class name="tests.HomePageTests">
+        <test-method signature="testHomePageTitle()[pri:0, instance:tests.HomePageTests@1622f1b]" started-at="2021-09-03T01:41:49 ART" name="testHomePageTitle" finished-at="2021-09-03T01:41:51 ART" duration-ms="2266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+      </class> <!-- tests.HomePageTests -->
+      <class name="tests.LoginPageTests">
+        <test-method signature="testLoginPageTitle()[pri:0, instance:tests.LoginPageTests@17046283]" started-at="2021-09-03T01:42:00 ART" name="testLoginPageTitle" finished-at="2021-09-03T01:42:03 ART" duration-ms="3009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitle -->
+        <test-method signature="loginToMedicare()[pri:1, instance:tests.LoginPageTests@17046283]" started-at="2021-09-03T01:42:03 ART" name="loginToMedicare" finished-at="2021-09-03T01:42:06 ART" duration-ms="2331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMedicare -->
+        <test-method signature="orderMedicare()[pri:2, instance:tests.LoginPageTests@17046283]" started-at="2021-09-03T01:42:06 ART" name="orderMedicare" finished-at="2021-09-03T01:42:13 ART" duration-ms="7335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderMedicare -->
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.ProductsPageTests">
+        <test-method signature="testAboutPageTitle()[pri:0, instance:tests.ProductsPageTests@70e8f8e]" started-at="2021-09-03T01:41:57 ART" name="testAboutPageTitle" finished-at="2021-09-03T01:42:00 ART" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAboutPageTitle -->
+      </class> <!-- tests.ProductsPageTests -->
+      <class name="tests.AboutPageTests">
+        <test-method signature="testAboutPageTitle()[pri:0, instance:tests.AboutPageTests@72a7c7e0]" started-at="2021-09-03T01:41:51 ART" name="testAboutPageTitle" finished-at="2021-09-03T01:41:54 ART" duration-ms="3139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAboutPageTitle -->
+      </class> <!-- tests.AboutPageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
